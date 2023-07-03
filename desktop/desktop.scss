@@ -105,7 +105,7 @@ $split-values: str-split($values, "|");
       background-size: contain;
       height: 440px;
       @if $image_display_style == 'responsive crop' {
-        background-size: cover;
+        /* background-size: cover; */
         width: 100%;
       }
     }
