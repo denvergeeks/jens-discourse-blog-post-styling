@@ -305,6 +305,8 @@ $split-values: str-split($values, "|");
     line-height: 1.4;
     padding-bottom: 0;
     padding-top: 4px;
+    background-color: yellow;
+  }
 
     .topic-avatar {
       border-top: 1px solid var(--primary-low);
@@ -314,6 +316,7 @@ $split-values: str-split($values, "|");
     .topic-body {
       background-color: var(--secondary);
       padding-top: 16px;
+      box-shadow: none;
     }
 
     .cooked {
